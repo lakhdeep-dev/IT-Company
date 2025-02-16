@@ -1,0 +1,99 @@
+/*
+Theme Name: Codesolvix Theme
+Theme URI: https://codesolvix.com
+Author: Team Codesolvix
+Author URI: https://codesolvix.com
+Description: custom theme for IT Website
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: codesolvix-theme
+Tags: custom-background
+*/
+
+body {
+	box-sizing:border-box;
+    margin:0;
+    font-family: 'poppins', 'sans-serif';
+    padding:0;
+	background-color:'#f0f0f0';
+}
+
+
+.site-header {
+    border-bottom: 2px solid;
+}
+
+.site-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: .25rem;
+    line-height: 1;
+}
+
+.site-title a {
+    text-decoration: none;
+    color: black
+}
+
+.site-description {
+    margin-top: 0;
+    color: #8e8e8e;
+}
+
+.menu {
+    border-top: 1px solid #ccc;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #696969;
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+.site-content {
+    width: 640px;
+    float: left;
+}
+
+article {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.sidebar {
+    width: 280px;
+    float: left;
+    list-style: none;
+    margin-top: 2em;
+	font-size: 14px
+}
+
+.widgettitle {
+    border-top: 2px solid;
+    border-bottom: 1px solid #ccc;
+    padding: .25rem 0;
+    font-size: 1.25rem
+}
+
+.widget {
+    margin-bottom: 3rem
+}
+
+label {
+	display: block
+}
+
+.commentlist {
+	list-style: none;
+	padding-left: 0;
+}
